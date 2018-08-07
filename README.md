@@ -6,7 +6,7 @@ We calculate the probabilility of getting more than four (4) "heads" out of nine
 
     {True, False}^9
 
-and then applying `pPred` to find the probability of predicate occuring in a distribution.
+and then applying `pPred` to find the probability of a predicate occuring in a distribution.
 
     $ ghci -i Prob.hs
 
