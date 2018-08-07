@@ -30,7 +30,8 @@ import Data.Maybe (fromJust, fromMaybe)
 
 -- Internal helper method for debug strings
 debug :: String -> IO ()
-debug str = putStrLn $ "[Debug: \"" ++ str ++ "\"]"
+--debug str = putStrLn $ "[Debug: \"" ++ str ++ "\"]"
+debug str = return ()
 
 -- Represents a probability of an event occouring
 type Prob = Rational
